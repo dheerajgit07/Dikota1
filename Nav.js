@@ -1426,6 +1426,73 @@ function navbar() {
         fetchpriority="low"
         src="https://s3no.cashify.in/estore/41cd19daf698432ab359b16d07c2dfa5.webp?p=default&amp;s=lg"></div>
   </marquee>
+  <div class="bg-gray-100">
+    <footer class="bg-gradient-to-r from-blue-900 via-indigo-900 to-purple-600 text-white py-10">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div>
+                <h2 class="text-xl font-bold mb-4 hover:text-red-500 hover:scale-125 transition">🛍️ MyShop.Dikota</h2>
+                <p class="text-gray-200 hover:text-white transition">Dikota company High-quality products at the best prices. Shop with confidence and comfort.</p>
+            </div>
+            
+            <div>
+                <h3 class="text-lg font-semibold mb-4 hover:text-red-500 hover:scale-125 transition">Customer Support</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li><a href="Home.html" class="text-gray-200 hover:text-white hover:underline transition">Company</a></li>
+                    <li><a href="Shop.html" class="text-gray-200 hover:text-white hover:underline transition">Shop</a></li>
+                    <li><a href="About us" class="text-gray-200 hover:text-white hover:underline transition">About Us</a></li>
+                    <li><a href="Contact" class="text-gray-200 hover:text-white hover:underline transition">Contact</a></li>
+                    <li><a href="faq.html" class="text-gray-200 hover:text-white hover:underline transition">FAQs</a></li>
+                    <li><a href="return-policy.html" class="text-gray-200 hover:text-white hover:underline transition">Returns</a></li>
+                    <li><a href="track-order.html" class="text-gray-200 hover:text-white hover:underline transition">Track Order</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-semibold mb-4 hover:text-red-500 hover:scale-125 transition">Helpful Links</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li><a href="services.html" class="text-gray-200 hover:text-white hover:underline transition">Services</a></li>
+                    <li><a href="help/center.html" class="text-gray-200 hover:text-white hover:underline transition">Help Center</a></li>
+                    <li><a href="support" class="text-gray-200 hover:text-white hover:underline transition">Support</a></li>
+                    <li><a href="sell device" class="text-gray-200 hover:text-white hover:underline transition">Sell Device</a></li>
+                    <li><a href="privacy-policy.html" class="text-gray-200 hover:text-white hover:underline transition">Privacy Policy</a></li>
+                    <li><a href="terms.html" class="text-gray-200 hover:text-white hover:underline transition">Terms</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-lg font-semibold mb-4 hover:text-red-500 hover:scale-125 transition">Company Info</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li><a href="about.html" class="text-gray-200  hover:text-white  hover:underline transition">About Dikota</a></li>
+                    <li><a href="careers.html" class="text-gray-200 hover:text-white hover:underline transition">Careers</a></li>
+                    <li><a href="press.html" class="text-gray-200 hover:text-white hover:underline transition">Press & Media</a></li>
+                    <li><a href="blog.html" class="text-gray-200 hover:text-white hover:underline transition">Our Blog</a></li>
+                    <li><a href="affiliate.html" class="text-gray-200 hover:text-white hover:underline transition">Affiliate Program</a></li>
+                </ul>
+            </div>
+
+        </div>
+  <br>      
+<hr>
+        <div class="max-w-6xl mx-auto px-4 mt-8">
+            <h3 class="text-lg font-semibold mb-4 hover:text-red-500 transition">Follow Us</h3>
+            <div class="flex space-x-4 mb-4">
+                <a href="https://facebook.com" class="text-gray-200 hover:text-white hover:scale-125 hover:underline transition duration-300">🌐 Facebook</a>
+                <a href="https://instagram.com" class="text-gray-200 hover:text-white hover:scale-125 hover:underline transition duration-300">📸 Instagram</a>
+                <a href="https://twitter.com" class="text-gray-200 hover:text-white hover:scale-125 hover:underline transition duration-300">🐦 Twitter</a>
+                <a href="https://youtube.com" class="text-gray-200 hover:text-white hover:scale-125 hover:underline transition duration-300">👁 YouTube</a>
+            </div>
+
+            <form class="flex items-center space-x-2 mt-4">
+                <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-l-md bg-gray-700 text-white border-none hover:bg-gray-800 transition duration-300 focus:outline-none focus:ring-2 focus:ring-red-500" />
+                <button type="submit" class="px-4 py-2 rounded-r-md bg-red-500 text-white hover:bg-red-700 transition duration-300">Subscribe</button>
+            </form>
+        </div>
+
+        <div class="text-center text-gray-500 text-sm mt-8 border-t border-gray-200 pt-4 hover:text-white hover:underline transition">
+            &copy;2025 MyShop.Dikota. All rights reserved. Thank you for shopping with us!
+        </div>
+    </footer>
+    </div>
 </body>
 
 
