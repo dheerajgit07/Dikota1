@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body id="navbar">
+  
+  <script src="Nav.js"></script>
+  <div>
+    <script>
+      const right = document.getElementById('right');
+      const left = document.getElementById('left');
+      const slider = document.getElementById('slider');
+      const image = document.querySelectorAll('.image')
+    
+      let slideNumber = 1;
+      const length = image.length;
+      const nextSlide = () => {
+    
+        slider.style.transform = `translateX(-${slideNumber * 900}px)`;
+        slideNumber++;
+    
+      };
+      const prevSlide = () => {
+    
+        slider.style.transform = `translateX(-${(slideNumber - 2) * 900}px)`;
+        slideNumber--;
+    
+      };
+      const getFirstSlide = () => {
+    
+        slider.style.transform = `translateX(0px)`;
+        slideNumber = 1;
+    
+      };
+      const getlastSlide = () => {
+    
+        slider.style.transform = `translateX(-${(length - 1) * 800}`;
+        slideNumber = length;
+    
+      };
+    
+      right.addEventListener('click', () => {
+        slideNumber < length ? nextSlide() : getFirstSlide()
+    
+      });
+    
+      left.addEventListener('click', () => {
+        slideNumber > 1 ? prevSlide() : getlastSlide()
+    
+      });
+    
+    
+    </script>
+  </div>
+</body>
+</html>

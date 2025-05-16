@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Feedback</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f8fb;
+      padding: 40px 20px;
+      color: #333;
+    }
+
+    .feedback-container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #2c3e50;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    .success-message {
+      display: none;
+      text-align: center;
+      color: green;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="feedback-container">
+    <h2>We Value Your Feedback</h2>
+    <form id="feedbackForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="Your email" required>
+
+      <label for="rating">How was your experience?</label>
+      <select id="rating" name="rating" required>
+        <option value="" disabled selected>Select an option</option>
+        <option value="excellent">Excellent</option>
+        <option value="good">Good</option>
+        <option value="average">Average</option>
+        <option value="poor">Poor</option>
+      </select>
+
+      <label for="feedback">Comments or Suggestions</label>
+      <textarea id="feedback" name="feedback" placeholder="Tell us what you think..."></textarea>
+
+      <button type="submit">Submit Feedback</button>
+      <div class="success-message" id="successMessage">Thank you for your feedback!</div>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("feedbackForm");
+    const message = document.getElementById("successMessage");
+
+    form.addEventListener("submit", function(e) {
+      e.preventDefault(); // Prevent actual submission
+      message.style.display = "block";
+      form.reset(); // Reset the form
+    });
+  </script>
+
+</body>
+</html>
