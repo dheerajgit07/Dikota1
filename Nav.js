@@ -16,7 +16,7 @@ function navbar() {
     <!--logo-->
     <div class="mb-3 md:mb-0 ">
       <img class="hover:rotate-x-360 duration-1000 transition-transform hover:scale-140 h- w-35 ml-9 mr-9 object-cover "
-        src="images/logow.png" alt="">
+        src="logow.png" alt="">
     </div>
     <!-- <h1 class=" p-1 text-xl w-15 mt-5 ml-30 mb-4 font-extrabold font-stretch-110% text-orange-600 " > Dikota</h1> -->
     <!-- search bar -->
@@ -771,7 +771,7 @@ function navbar() {
                       class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                       style="cursor:pointer">
                       <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         <div
                           class="flex flex-row bg-error-light border-1 border-error rounded-md items-center right-2 px-1.5">
                           <span class="caption text-error">1<!-- --> left</span>
@@ -841,7 +841,7 @@ function navbar() {
                       class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                       style="cursor:pointer">
                       <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         <div
                           class="flex flex-row bg-error-light border-1 border-error rounded-md items-center right-2 px-1.5">
                           <span class="caption text-error">3<!-- --> left</span>
@@ -911,7 +911,7 @@ function navbar() {
                       class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                       style="cursor:pointer">
                       <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         <div
                           class="flex flex-row bg-error-light border-1 border-error rounded-md items-center right-2 px-1.5">
                           <span class="caption text-error">1<!-- --> left</span>
@@ -979,7 +979,7 @@ function navbar() {
                       class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                       style="cursor:pointer">
                       <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                       </div>
                       <div class="relative flex flex-col"><img
                           alt="Apple MacBook Pro 2021 a2442 (Apple M1 Pro Chip 14 Inch)- Refurbished"
@@ -1045,7 +1045,7 @@ function navbar() {
                       class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                       style="cursor:pointer">
                       <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         <div
                           class="flex flex-row bg-error-light border-1 border-error rounded-md items-center right-2 px-1.5">
                           <span class="caption text-error">2<!-- --> left</span>
@@ -1115,7 +1115,7 @@ function navbar() {
                       class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                       style="cursor:pointer">
                       <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                          class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                       </div>
                       <div class="relative flex flex-col"><img
                           alt="Apple MacBook Air 2024 A3113 (Apple M3 Chip 13.3 Inch)- Refurbished"
