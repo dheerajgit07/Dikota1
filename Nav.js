@@ -348,7 +348,7 @@ function navbar() {
                         class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                         style="cursor:pointer">
                         <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         </div>
                         <div class="relative flex flex-col"><img
                             alt="Lenovo Thinkpad L Series L14 Gen 2 (Intel Core i5 11th Gen 14 Inch)- Refurbished"
@@ -406,7 +406,7 @@ function navbar() {
                         class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                         style="cursor:pointer">
                         <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         </div>
                         <div class="relative flex flex-col"><img
                             alt="Apple Ipad Air 2022 5th Generation (10.9 inch, Wifi Only)- Refurbished"
@@ -472,7 +472,7 @@ function navbar() {
                         class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                         style="cursor:pointer">
                         <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         </div>
                         <div class="relative flex flex-col"><img
                             alt="Apple MacBook Pro (Mid-2017, Two Thunderbolt 3 Ports) A1708 (Intel Core i7 13.3 Inch)- Refurbished"
@@ -539,7 +539,7 @@ function navbar() {
                         class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                         style="cursor:pointer">
                         <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         </div>
                         <div class="relative flex flex-col"><img alt="Apple iPhone 14 - Refurbished"
                             class="w-28 h-28 sm:w-40 sm:h-40 mx-auto"
@@ -603,7 +603,7 @@ function navbar() {
                         class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 pb-2 sm:pb-3 border-1 border-surface-bg"
                         style="cursor:pointer">
                         <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         </div>
                         <div class="relative flex flex-col"><img alt="Samsung Galaxy Z Flip6 5G - Refurbished"
                             class="w-28 h-28 sm:w-40 sm:h-40 mx-auto"
@@ -667,7 +667,7 @@ function navbar() {
                         class="flex relative flex-col rounded-md bg-primary-bg flex-grow my-1.5 overflow-hidden w-48 sm:w-60 border-2 border-solid border-cobalt-border"
                         style="cursor:pointer">
                         <div class="flex flex-row justify-between top-2 px-2 gap-1 mt-1.5 h-5"><img alt=""
-                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="images/logo.png">
+                            class="object-contain h-5 w-16" loading="lazy" fetchpriority="low" src="logow.png">
                         </div>
                         <div class="relative flex flex-col"><img
                             alt="Apple Watch Series 10 (46mm, GPS Only)- Refurbished"
