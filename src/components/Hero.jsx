@@ -138,7 +138,7 @@ const Hero = () => {
               </a>
 
               <a
-                href="https://protfolio4.vercel.app/"
+                href="https://01-port.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
                 style={{ color: 'var(--text-main)', borderColor: 'var(--border-color)', backgroundColor: 'var(--bg-navbar-scrolled)' }}
