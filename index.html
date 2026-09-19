@@ -3,51 +3,86 @@
 <head>
   <meta charset="UTF-8" />
 
-  <!-- Website Logo -->
+  <!-- Favicon / Brand Logo (React logo completely replaced) -->
   <link rel="icon" type="image/png" href="/dikota-logo.png" />
+  <link rel="apple-touch-icon" href="/dikota-logo.png" />
 
-  <!-- Responsive -->
+  <!-- Responsive Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- SEO -->
-  <title>Dikota | CEO Founder Dheeraj Kamboj</title>
-
-  <meta name="title" content="Dikota | CEO Founder Dheeraj Kamboj" />
-  
+  <!-- Primary SEO Metadata -->
+  <title>Dheeraj Kamboj - Founder & CEO at Dikota Company</title>
+  <meta name="title" content="Dheeraj Kamboj - Founder & CEO at Dikota Company" />
   <meta 
     name="description" 
-    content="Official portfolio website of Dheeraj Kamboj, CEO & Founder from Karnal and Chandigarh. Explore modern web development, frontend projects, UI design, and creative digital solutions." 
+    content="Official profile of Dheeraj Kamboj, Founder & CEO at Dikota Company. Full Stack Developer skilled in MERN, Next.js, Python, AI/ML, React, Tailwind CSS, Framer Motion, and GSAP. Building scalable web solutions in Karnal, Chandigarh, and Pan India." 
   />
-
   <meta 
     name="keywords" 
-    content="Dheeraj Kamboj, Dikota, CEO Founder, Karnal Developer, Chandigarh Developer, Frontend Developer India, Portfolio Website, Web Developer, React Developer" 
+    content="Dheeraj Kamboj, Founder & CEO at Dikota Company, Dikota, Dikota Company, Full Stack Developer, MERN Stack, Next.js Developer, Python, AI ML Enthusiast, React Developer, Tailwind CSS, Framer Motion, GSAP, Web Developer Karnal, Web Developer Chandigarh, Best Web Development Haryana, Scalable Web Applications India" 
   />
-
   <meta name="author" content="Dheeraj Kamboj" />
+  <meta name="robots" content="index, follow" />
 
-  <!-- Open Graph SEO -->
-  <meta property="og:title" content="Dikota | CEO Founder Dheeraj Kamboj" />
-
+  <!-- Open Graph / Facebook / LinkedIn SEO -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Dikota Company" />
+  <meta property="og:title" content="Dheeraj Kamboj - Founder & CEO at Dikota Company" />
   <meta 
     property="og:description" 
-    content="Modern portfolio website of Dheeraj Kamboj featuring web development, UI/UX projects, and digital creativity." 
+    content="Founder & CEO at Dikota Company | Full Stack Developer | MERN, Next.js, Python | AI/ML Enthusiast | React, Tailwind CSS, Framer Motion, GSAP | Building Scalable Digital Solutions." 
   />
+  <meta property="og:image" content="/dikota-logo.png" />
 
-  <meta property="og:type" content="website" />
+  <!-- Twitter SEO -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dheeraj Kamboj - Founder & CEO at Dikota Company" />
+  <meta 
+    name="twitter:description" 
+    content="Founder & CEO at Dikota Company | Full Stack Developer | MERN, Next.js, Python | AI/ML Enthusiast | Building Scalable Web Apps." 
+  />
+  <meta name="twitter:image" content="/dikota-logo.png" />
 
-  <!-- Local SEO -->
+  <!-- Local SEO Targets -->
   <meta name="geo.region" content="IN-HR" />
-  <meta name="geo.placename" content="Karnal, Chandigarh" />
+  <meta name="geo.placename" content="Karnal, Chandigarh, Haryana, India" />
+  <meta name="geo.position" content="29.6857;76.9905" />
+  <meta name="ICBM" content="29.6857, 76.9905" />
 
-  <!-- CSS -->
+  <!-- Google Schema (JSON-LD) for Founder, CEO & Social Profiling -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Dheeraj Kamboj",
+      "alternateName": "Dheeraj Kamboj Dikota",
+      "jobTitle": "Founder & CEO",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Dikota Company"
+      },
+      "description": "Founder & CEO at Dikota Company | Full Stack Developer | MERN, Next.js, Python | AI/ML Enthusiast | React, Tailwind CSS, Framer Motion, GSAP | Building Scalable Web Applications.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Karnal",
+        "addressRegion": "Haryana",
+        "addressCountry": "IN"
+      },
+      "sameAs": [
+        "https://www.instagram.com/dheeraj_kamboj_12",
+        "https://www.youtube.com/@dikotas"
+      ]
+    }
+  </script>
+
+  <!-- Global Stylesheet -->
   <link rel="stylesheet" href="/src/style.css" />
 </head>
 
 <body>
   <div id="root"></div>
 
-  <!-- React Main File -->
+  <!-- React Entry Point -->
   <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
